@@ -1,0 +1,9 @@
+applications:
+  name: dmart-web-service-test
+  memory: 128M
+  instances: 1
+  host: dmart-web-service-test
+  domain: cfapps.io
+  path:  /home/travis/build/sgatlewa/samplewebapplication/dmart.war
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  command: java
