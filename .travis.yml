@@ -1,0 +1,10 @@
+language: java
+script: ant war
+deploy:
+  edge: true
+  provider: cloudfoundry
+  api: https://api.run.pivotal.io
+  username: gatlewar.santa544@gmail.com
+  password: Optra@24
+  organization: Test@1234
+  space: testing
